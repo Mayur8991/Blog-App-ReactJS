@@ -1,0 +1,51 @@
+#root {
+  height: 100vh;
+  padding: 0;
+  margin: -10px;
+}
+
+.progressBar {
+  margin-top: 50px;
+}
+
+.progressBar_history {
+  display: flex;
+  border: 1px solid white;
+  border-radius: 4px;
+  min-height: 30px;
+  padding: 5px;
+  list-style: none;
+  color: black;
+  font-size: 24px;
+}
+
+.progressBar_history li {
+  margin-right: 8px;
+  padding: 2px;
+  border-radius: 4px;
+}
+
+.Guess {
+  background-color: #ffffff;
+  background-image: linear-gradient(
+    90deg,
+    #ffffff 0%,
+    #6284ff 34%,
+    #ff0000 100%
+  );
+}
+
+.Warmer {
+  background-color: #ff9966;
+}
+.HOTT {
+  background-color: #ff0000;
+}
+
+.won {
+  background-color: #52acff;
+  background-image: linear-gradient(269deg, #52acff 25%, #ffe32c 100%);
+}
+.Coldddd {
+  background-color: #3366ff;
+}
